@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+form {
+    text-align: center;
+    height: 375px;
+    width: 375px;
+    border-radius: 30px;
+    border: 3px solid rgb(202, 202, 202);
+    background-color: rgba(255, 255, 255, 0.60);
+    box-shadow: -2px 6px 7px 0px rgba(0,0,0,0.65);
+}
+
+.logo {
+    width: 25%;
+    padding: 0 80% 0 0;
+}
+
+h2 {
+    font-size: 1.15rem;
+    transform: translateX(8%) translateY(-150%);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+select {
+    font-size: 0.8rem;
+    height: 40px;
+}
+
+.opt {
+    transform: translateY(-30%);
+}
+
+@media screen and (max-width: 667px) {
+    form {
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    form {
+      margin: 0 auto;
+    }
+  }

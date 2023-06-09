@@ -1,0 +1,8 @@
+Download Xampp
+Composer - composer install phpmailer/phpmailer
+
+Place this to htdocs
+username: root
+password: Labyu_123
+
+jamesmichaeldmagnayedatabase@gmail.com

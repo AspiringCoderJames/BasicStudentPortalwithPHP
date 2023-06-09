@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(Place\ your\ BG\ here.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+form {
+  text-align: center;
+  height: 375px;
+  width: 375px;
+  border-radius: 30px;
+  border: 3px solid rgb(202, 202, 202);
+  background-color: rgba(255, 255, 255, 0.60);
+  box-shadow: -2px 6px 7px 0px rgba(0,0,0,0.65);
+}
+
+@media screen and (max-width: 667px) {
+  .logo {
+    display: none;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  
+  form {
+    width: 667px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    display: none;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  
+  form {
+    margin: 0 auto;
+  }
+}
