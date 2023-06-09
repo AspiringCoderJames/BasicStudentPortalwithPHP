@@ -1,6 +1,7 @@
 # PHP using Xampp Server
 
-Basic Student Portal, where you can register, login, check grades or update grades using the admin account.
+Basic Student Portal: Register, Login, Check Grades, and Update Grades using the Admin Account
 
-I only uploaded the code. You can use it as a basis for your future project.
-You must learn how to use Xampp Control Panel, phpmailer (for sending otp code), and of course the basics of PHP.
+I have uploaded the code for a basic student portal. You can use it as a foundation for your future project. To utilize it effectively, you should learn how to use XAMPP Control Panel, PHPMailer (for sending OTP codes), and, of course, the fundamentals of PHP.
+
+This is not yet finished, there are more changes to be made.
